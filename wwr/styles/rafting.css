@@ -7,11 +7,11 @@
 
 :root {
     --primary-color: #B0C4DE;
-    --secondary-color: #1eaec7;
+    --secondary-color: #6fcedf;
     --accent1-color: #1f1c1c;
     --accent2-color: lightgray;
     --heading-font: "Times New Roman", "Georgia", serif;
-
+    --body-font: Arial, Helvatica, sans-serif;
 }
 
 body {
@@ -64,7 +64,7 @@ article {
     object-fit: cover;
 }
 
-.hero h1 {
+h1 {
     position: absolute;
     top: 20px;
     width: 840px;
@@ -89,7 +89,7 @@ article {
     float: right;
     width: 150px;
     height: 110px;
-    box-shadow: 0 0 10px var(--primary-color);
+    box-shadow: 0 0 10px var(--secondary-color);
 }
 
 footer {
