@@ -12,23 +12,41 @@
 }
 
 nav {
-    background-color: darkblue;
+    background-color: black;
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* This id a comment */
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: 15px;
+    font-size: 1rem;
+}
+
+header,
+.grid,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
 }
 
 h1 {
     color: darkblue;
+    border-bottom: 1.5px solid darkblue;
 }
 
 main {
-    max-width: 840px;
+    grid-column: 2/3;
+    margin: 0.1px;
 }
 
 main img {
@@ -41,15 +59,23 @@ main img {
     margin: 0 0 1rem 1 rem;
 }
 
+main a {
+    display: flex;
+    align-items: flex-start;
+}
+
 aside {
-    width: 20rem;
+    width: 15rem;
     text-align: center;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 
 }
 
 aside h2 {
     position: absolute;
-    left: 95px;
+    left: 37px;
     color: black;
 }
 
