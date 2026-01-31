@@ -121,6 +121,7 @@ article {
 
 article {
     position: absolute;
+    top: 270px;
     bottom: 607px;
     left: 310px;
     width: 500px;
