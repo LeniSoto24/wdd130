@@ -173,7 +173,7 @@ legend {
     display: none;
 }
 
-.figcaption {
+.figcaption2 {
     margin: 1rem auto;
     border: 1px solid white;
     display: grid;
@@ -182,11 +182,11 @@ legend {
     justify-content: space-between;
 }
 
-.figcaption h2 {
+.figcaption2 h2 {
     grid-column: 1/4;
 }
 
-.figcaption img {
+.figcaption2 img {
     width: 130px;
 }
 
