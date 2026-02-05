@@ -51,26 +51,33 @@
                         <label for="fullname">Name</label>
                         <input type="text" id="full" name="fullname">
                     </div>
+
                     <div class="column1">
                         <label for="email">Email</label>
                         <input type="text" id="email" name="email">
                     </div>
+
                     <div class="column1">
-                        <label for="porpuse">Message Purpose</label>
-                        <label for="inquiry"><input type="radio" id="inquiry" name="porpuse">General
-                            Inquiry</lavel>
-                            <label for="reservation"><input type="radio" id="reservation"
-                                  name="purpose">Reservation Question</label>
-                            <label for="suggestion"></label><input type="radio" id="suggestion"
-                              name="suggestion">Website Suggestion</label>
+                        <p>Message Purpose</p>
+
+                        <label for="inquiry">General Inquiry</label>
+                        <input type="radio" id="inquiry" name="porpuse">
+
+                        <label for="reservation">Reservation Question</label>
+                        <input type="radio" id="reservation" name="purpose">
+
+                        <label for="suggestion">Website Suggestion</label>
+                        <input type="radio" id="suggestion" name="purpose">
                     </div>
                     <div class="column2">
                         <label for="message">Message</label>
                         <textarea name="message" id="message" rows="4"
                           placeholder="Type here"></textarea>
                     </div>
-                    <div> <label for="subscribe"><input type="checkbox">Please Subscribe me to the
-                            mounthyly newsletter</label>
+                    <div>
+                        <label for="subscribe">Please Subscribe me to the mounthyly
+                            newsletter</label>
+                        <input type="checkbox" id="subscribe" name="subscribe">
                     </div>
                     <button type="submit">Get in Touch!</button>
                 </form>
@@ -87,8 +94,7 @@
                 <figure>
                     <img src="images/mike.jpg" alt="Mike's Profile Photo">
                 </figure>
-        </div>
-        </section>
+            </section>
         </div>
     </main>
 
